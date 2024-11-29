@@ -1,0 +1,181 @@
+<!-- <!DOCTYPE html>
+<html lang="ky">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ашкана</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo"> 
+            <img src="images/logo1.png" alt="Логотип">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Башкы бет</a></li>
+                <li><a href="menu.html">Меню</a></li>
+                <li><a href="ashkana.html">Ашкана</a></li>
+                <li><a href="chaybahce.html">Чай бакча</a></li>
+                <li><a href="kiraathane.html">Баарлашуу жайы</a></li>
+                <li><a href="kantinler.html">Кафетериялар</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero3">
+        
+        <h1>Кош келиңиздер</h1>
+        
+    </section>
+
+    <section class="content">
+        <h2>Ашкана</h2>
+        <p>   Университеттин студенттеринин жана кызматкерлеринин тамактануусун камсыздоо максатында студенттик шаарчанын аймагында жана башкы корпусунда жайгашкан ашканаларда тейлөө кызматы көрсөтүлөт.  Университеттин жатаканасында жашаган студенттер үчүн акысыз  эртең мененки тамак сунушталат. Кайрымдуулук иш катары кызматкерлерибиздин өз ыктыярдуу көмөгү менен кафетерияларда белгилүү бир категориядагы студенттер үчүн акысыз тейлөө кызматы жүргүзүлөт. Бул кызмат атайын жасалып чыккан электрондук программа аркылуу негизделген. </p>
+    </section>
+
+    <section class="content">
+        <h3>Тамак-аш тейлөө кызматы</h3>
+        <p>  Турмуш-тиричиликти тейлөө жана кантин-кафетерия иштетүү бөлүмү университеттин студенттери менен кызматкерлеринин пайдалуу, туура жана гигиеналык талаптарга жооп берген шартта тамактануусун камсыздайт. Тамак даярдоо процесси Ч. Айтматов атындагы студенттик шаарчанын ичинде жайгашкан социалдык багыттагы объектилердин ашканасында жүргүзүлөт. Тамак-аш менен тейлөө бөлүмү студенттер менен кызматкерлердин түшкү жана кечки тамактануусун тейлейт. Университетте даярдалган ысык тамактардын бир айлык менюсу туура тамактанууну камсыз кылуу максатында студенттердин суроо-талаптары жана мезгилдин өзгөчөлүктөрү эске алынуу менен түзүлөт. Менюнун негизин төмөндөгүлөр түзөт: эт азыктары, тоок жана балык азыктары, ысык-муздак закускалар, салаттар, татуу токочтор, жемиштер ж.б. Сатыкка коюлган тамак-аштардын ар биринен күнүгө  үлгүлөр алынып, 72 саат эрежелерге ылайык сакталып, текшерилип турат. Университеттин социалдык, спорттук жана маданий иш-чараларына катышкан студенттерге иш-чара учурунда эртеӊ мененки тамак, чай, кофе, түшкү жана кечки тамак, тез татым азыктары берилип турат. Кызматкерлер атайын форма: баш кийим, кол кап кийип тейлешет.  Университеттин тамак-аш инженерлери жана тамак-аш технологдору жыл мезгилине жараша талап кылынган калорияны эске алуу менен бир айлык ысык тамактын менюсун түзүшөт жана ал окуу жайыбыздын интернет-баракчасына жайгаштырылат. </p>
+    </section>
+
+
+  
+
+    
+    
+    <footer>
+        <p>&copy; 2024 Кыргыз-Түрк "Манас" Университети</p>
+        <p>Кошумча жайлар жана ашкана ишмердүүлүгү башкармалыгы</p>
+    </footer>
+</body>
+</html> 
+
+ -->
+
+ <!DOCTYPE html>
+ <html lang="ky">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Ашкана</title>
+     <!-- Подключение Bootstrap CSS -->
+     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+     <!-- Дополнительные стили -->
+     <style>
+         body {
+             font-family: Arial, sans-serif;
+             background-color: #f8f9fa;
+         }
+         header {
+             background-color: #007bff;
+             padding: 15px 0;
+             position: fixed;
+             width: 100%;
+             top: 0;
+             z-index: 1000;
+         }
+         .logo img {
+             width: 60px;
+             margin-left: 20px;
+         }
+         nav ul {
+             list-style: none;
+             display: flex;
+             justify-content: center;
+             padding: 0;
+             margin: 0;
+         }
+         nav ul li {
+             margin: 0 15px;
+         }
+         nav ul li a {
+             color: white;
+             text-decoration: none;
+             font-weight: bold;
+             transition: color 0.3s;
+         }
+         nav ul li a:hover {
+             color: #ffc107;
+         }
+         .hero3 {
+             background: url('images/cafeteria.jpg') no-repeat center center/cover;
+             height: 500px;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             color: white;
+             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+             margin-top: 80px;
+         }
+         .content {
+             padding: 40px 20px;
+             background-color: white;
+             border-radius: 10px;
+             box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+             margin: 20px auto;
+             max-width: 900px;
+             text-align: justify;
+         }
+         footer {
+             background-color: #343a40;
+             color: white;
+             text-align: center;
+             padding: 10px 0;
+             position: fixed;
+             bottom: 0;
+             width: 100%;
+         }
+     </style>
+ </head>
+ <body>
+     <!-- Шапка сайта -->
+     <header>
+         <div class="d-flex align-items-center">
+             <div class="logo">
+                 <img src="images/logo1.png" alt="Логотип">
+             </div>
+             <nav class="ml-auto">
+                 <ul class="d-flex justify-content-center">
+                     <li><a href="index.html">Башкы бет</a></li>
+                     <li><a href="menu.html">Меню</a></li>
+                     <li><a href="ashkana.html" class="active">Ашкана</a></li>
+                     <li><a href="chaybahce.html">Чай бакча</a></li>
+                     <li><a href="kiraathane.html">Баарлашуу жайы</a></li>
+                     
+                 </ul>
+             </nav>
+         </div>
+     </header>
+ 
+     <!-- Hero Section -->
+     <section class="hero3 text-center">
+         <h1>Кош келиңиздер</h1>
+     </section>
+ 
+     <!-- Content Section 1 -->
+     <section class="content">
+         <h2>Ашкана</h2>
+         <p>Университеттин студенттеринин жана кызматкерлеринин тамактануусун камсыздоо максатында студенттик шаарчанын аймагында жана башкы корпусунда жайгашкан ашканаларда тейлөө кызматы көрсөтүлөт. Университеттин жатаканасында жашаган студенттер үчүн акысыз эртең мененки тамак сунушталат. Кайрымдуулук иш катары кызматкерлерибиздин өз ыктыярдуу көмөгү менен кафетерияларда белгилүү бир категориядагы студенттер үчүн акысыз тейлөө кызматы жүргүзүлөт. Бул кызмат атайын жасалып чыккан электрондук программа аркылуу негизделген.</p>
+     </section>
+ 
+     <!-- Content Section 2 -->
+     <section class="content">
+         <h3>Тамак-аш тейлөө кызматы</h3>
+         <p>Турмуш-тиричиликти тейлөө жана кантин-кафетерия иштетүү бөлүмү университеттин студенттери менен кызматкерлеринин пайдалуу, туура жана гигиеналык талаптарга жооп берген шартта тамактануусун камсыздайт. Тамак даярдоо процесси Ч. Айтматов атындагы студенттик шаарчанын ичинде жайгашкан социалдык багыттагы объектилердин ашканасында жүргүзүлөт. Тамак-аш менен тейлөө бөлүмү студенттер менен кызматкерлердин түшкү жана кечки тамактануусун тейлейт.</p>
+     </section>
+ 
+     <!-- Футер -->
+     <footer>
+         <p>&copy; 2024 Кыргыз-Түрк "Манас" Университети</p>
+         <p>Кошумча жайлар жана ашкана ишмердүүлүгү башкармалыгы</p>
+     </footer>
+ 
+     <!-- Подключение Bootstrap JS и зависимостей -->
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ </body>
+ </html>
+ 

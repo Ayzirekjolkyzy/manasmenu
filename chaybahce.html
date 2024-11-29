@@ -1,0 +1,144 @@
+<!-- <!DOCTYPE html>
+<html lang="ky">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Чай бакча</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo"> 
+            <img src="images/logo1.png" alt="Логотип">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Башкы бет</a></li>
+                <li><a href="menu.html">Меню</a></li>
+                <li><a href="ashkana.html">Ашкана</a></li>
+                <li><a href="chaybahce.html" class="active">Чай бакча</a></li>
+                <li><a href="kiraathane.html">Баарлашуу жайы</a></li>
+                <li><a href="kantinler.html">Кафетериялар</a></li>
+            
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero2">
+        <h1>Боз үй чай бакчасы</h1>
+        
+    </section>
+
+    <section class="content">
+        <h2>Боз үй чай бакчасы</h2>
+        <p>Кыргыз-Түрк Манас университетинин студенттеринин, академиялык жана административдик персоналынын тез тамактануусун камсыздоочу жайлардын бири - 2020-2021 Окуу жылында ачылган Боз үй чай бакчасы. Чай бакчасында күн сайын саат 09:00дон 23:00го чейин суусундуктар менен бирге түрдүү азык-түлүктөр сатылат. </p>
+    </section>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="ky">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Чай бакча</title>
+    <!-- Подключение Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Дополнительные стили -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #007bff;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        .logo img {
+            width: 60px;
+            margin-left: 20px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav ul li a.active, nav ul li a:hover {
+            color: #ffc107;
+        }
+        .hero2 {
+            background: url('images/tea_garden.jpg') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            margin-top: 80px;
+        }
+        .content {
+            padding: 40px 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            max-width: 800px;
+            text-align: justify;
+        }
+        .content h2 {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <div class="d-flex align-items-center">
+            <div class="logo">
+                <img src="images/logo1.png" alt="Логотип">
+            </div>
+            <nav class="ml-auto">
+                <ul class="d-flex justify-content-center">
+                    <li><a href="index.html">Башкы бет</a></li>
+                    <li><a href="menu.html">Меню</a></li>
+                    <li><a href="ashkana.html">Ашкана</a></li>
+                    <li><a href="chaybahce.html" class="active">Чай бакча</a></li>
+                    <li><a href="kiraathane.html">Баарлашуу жайы</a></li>
+                  
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero2 text-center">
+        <h1>Боз үй чай бакчасы</h1>
+    </section>
+
+    <!-- Content Section -->
+    <section class="content">
+        <h2>Боз үй чай бакчасы</h2>
+        <p>Кыргыз-Түрк Манас университетинин студенттеринин, академиялык жана административдик персоналынын тез тамактануусун камсыздоочу жайлардын бири - 2020-2021 Окуу жылында ачылган Боз үй чай бакчасы. Чай бакчасында күн сайын саат 09:00дон 23:00го чейин суусундуктар менен бирге түрдүү азык-түлүктөр сатылат.</p>
+    </section>
+
+    <!-- Подключение Bootstrap JS и зависимостей -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
